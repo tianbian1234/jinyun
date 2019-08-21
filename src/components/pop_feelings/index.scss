@@ -1,0 +1,64 @@
+@import './animation.scss';
+.box-wai-pop{
+  position: absolute;
+  width: 359px;
+  height: 100%;
+  .pop-box{
+    width: 359px;
+    height: 327px;
+    text-align: center;
+    line-height: 327px;
+    background-size: 359px 327px;
+    .pop-content{
+      font-size: 70px;
+    }
+    .pop-center{
+      position: absolute;
+      width: 325px;
+      height: 327px;
+      left:15px;
+      @include scrollYu(20s);
+    }
+    .pop-nei{
+      position: absolute;
+      width: 206px;
+      height: 207px;
+      top:60px;
+      left:74px;
+      @include scrollYu(20s);
+    }
+  }
+  .pop-box-0 {
+    background-image: url("./images/line_wai.png");
+    .pop-center-0 {
+      background-image: url("./images/green_center.png");
+    }
+    .pop-nei-0 {
+      background-image: url("./images/green-nei.png");
+    }
+  }
+  .pop-box-1{
+    background-image: url("./images/line_wai.png");
+    .pop-center-1{
+      background-image: url("./images/white_center.png");
+    }
+    .pop-nei-1 {
+      background-image: url("./images/white_nei.png");
+    }
+  }
+  .pop-box-2{
+    background-image: url("./images/line_wai.png");
+    .pop-center-2{
+      background-image: url("./images/red_center.png");
+    }
+    .pop-nei-2 {
+      background-image: url("./images/red_nei.png");
+    }
+  }
+  .text-box{
+    font-size:42px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+

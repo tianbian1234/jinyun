@@ -1,0 +1,45 @@
+@keyframes scan {
+  0% {left: -60px; opacity: 0}
+  50% {opacity: 1}
+  100% {left: 100%; opacity: 0}
+}
+
+
+.arrow {
+  position: absolute;
+  height: 3px;
+  //background: rgba(34, 123, 255, 0.5);
+  background: rgba(0, 173, 255, 0.5);
+  box-shadow: 0 5px 20px #0036ff, 0 -5px 20px #0036ff;
+  & > .end {
+    width: 105px;
+    height: 106px;
+    background: url(./images/end.png);
+    position: absolute;
+    top: -52px;
+    right: -45px;
+  }
+  & > .point {
+    width: 156px;
+    height: 157px;
+    background: url(./images/point.png);
+    position: absolute;
+    top: -64px;
+    right: -63px;
+    z-index: 999;
+    transform-origin: 92px 67px;
+  }
+  &:before {
+    content: '';
+    display: block;
+    width: 94px;
+    height: 94px;
+    background: url(./images/dot.png);
+    position: absolute;
+    top: -46px;
+    left: -60px;
+    animation: scan 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}

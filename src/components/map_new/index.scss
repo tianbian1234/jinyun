@@ -1,0 +1,22 @@
+.mapBoxnew{
+  .title{
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .back{
+    position: absolute;
+    top:-76px;
+    left:-95px;
+     width: 2021px;
+     height: 1907px;
+     background-image: url("./images/mapback.png");
+   }
+  .backmap{
+    position: absolute;
+    left:50px;
+    top: 600px;
+    background-image: url("./images/map.png");
+    background-size: cover;
+  }
+}

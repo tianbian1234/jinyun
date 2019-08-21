@@ -1,0 +1,21 @@
+.tree-box {
+  position: relative;
+  .tree-title {
+    height: 100px;
+    position: relative;
+    z-index: 10;
+  }
+  .tree-content {
+    padding-top: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    .tree {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

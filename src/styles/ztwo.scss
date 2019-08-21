@@ -1,0 +1,25 @@
+.jinyun-z-two {
+  width: 100%;
+  height: inherit;
+  padding: 79px;
+  background-image: url('./images/bg_1.jpg');
+  .left{
+    width: 3200px;
+    float: left;
+    height: 100%;
+  }
+  .right{
+    width: 1521px;
+    height: 100%;
+    float: left;
+    margin-left: 79px;
+    .right-up{
+      height: 1080px;
+      width: 100%;
+    }
+    .right-down{
+      height: 2160px;
+      width: 100%;
+    }
+  }
+}

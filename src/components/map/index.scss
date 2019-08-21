@@ -1,0 +1,20 @@
+.mapBox{
+  position: relative;
+  width: 2198px;
+  height: 1709px;
+  background-image: url("./images/mapback.png");
+  background-size:2198px 1709px;
+  .title {
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .mapTu{
+    position: absolute;
+    top:-37px;
+    left:16px;
+    width: 2198px;
+    height: 1709px;
+  }
+}
+

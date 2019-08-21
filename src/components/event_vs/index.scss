@@ -1,0 +1,70 @@
+.vs-box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .title{
+    margin-bottom: 30px;
+  }
+  .neibu-box{
+    position: relative;
+    .box{
+      position: absolute;
+      width: 590px;
+      height: 380px;
+      .name{
+        margin: 25px 0;
+        width: 100%;
+        height: 44px;
+        font-size: 44px;
+        color: #ffdf48;
+        text-align: center;
+      }
+      .name-2{
+        margin: 25px 0;
+        width: 100%;
+        height: 44px;
+        font-size: 40px;
+        color: #ffdf48;
+        text-align: center;
+      }
+      .content{
+        width: 90%;
+        height: 110px;
+        padding:0 30px;
+        font-size: 36px;
+        color: #ffffff;
+        text-align: left;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        display:-webkit-box;-webkit-line-clamp:2;/*行数*/
+        -webkit-box-orient:vertical;
+      }
+    }
+    .box1{
+      right:0;
+    }
+    .box2{
+       top:450px;
+    }
+    .box3{
+      right: 0;
+      top:450px;
+    }
+    .back{
+      position: absolute;
+      width: 450px;
+      height: 196px;
+      left:540px;
+      top:100px;
+      background-image: url("./images/vs.png");
+    }
+    .back1{
+      position: absolute;
+      width: 450px;
+      height: 196px;
+      left:540px;
+      top:570px;
+      background-image: url("./images/vs.png");
+    }
+  }
+}

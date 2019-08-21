@@ -1,0 +1,417 @@
+@import './animation.scss';
+.user{
+  width: 100%;
+  height: 100%;
+  .user-box{
+    position: relative;
+    width: 2900px;
+    height: 1950px;
+    margin-left: 80px;
+    .line{
+      position: relative;
+      top: 400px;
+      left:480px;
+      width: 1804px;
+      height: 1346px;
+      background-image: url("./images/line.png");
+      .name{
+        position: absolute;
+        width: 500px;
+        height:50px;
+        left:700px;
+        top:-300px;
+        text-align: center;
+        white-space: nowrap;
+        font-size: 80px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .back-dian{
+        position: absolute;
+        left:420px;
+        top:35px;
+        width: 1074px;
+        height: 1072px;
+        background-image: url("./images/back-2.png");
+      }
+      .event-box{
+        position: absolute;
+        width: 1640px;
+        height: 1048px;
+        left:131px;
+        top:50px;
+        background-image: url("./images/event-box.png");
+        .hobby{
+          position: absolute;
+          width: 200px;
+          height: 120px;
+          line-height: 120px;
+          text-align: center;
+          font-size:36px;
+          color: #dee0e6;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        .hobby1{
+          top:380px;
+          left:45px;
+        }
+        .hobby2{
+          top:610px;
+          left:70px;
+        }
+        .hobby3{
+          top:847px;
+          left:160px;
+        }
+        .hobby4{
+          top:380px;
+          right:45px;
+        }
+        .hobby5{
+          top:610px;
+          right:70px;
+        }
+        .hobby6{
+          top:850px;
+          right:160px;
+        }
+      }
+      .guang-nei{
+        position: absolute;
+        width: 659px;
+        height:622px;
+        left:630px;
+        top:260px;
+        background-image: url("./images/guang-nei.png");
+        @include circleBoxF(20s)
+      }
+      .huan-nei{
+        position: absolute;
+        width: 659px;
+        height: 628px;
+        left:630px;
+        top:260px;
+        background-image: url("./images/huan-nei.png");
+        @include circleBoxF(20s)
+      }
+      .huan-wai{
+        position: absolute;
+        width: 1174px;
+        height: 1176px;
+        left:368px;
+        top:-12px;
+        background-image: url("./images/huan-wai.png");
+        @include circleBox(20s);
+      }
+      .man{
+        position: absolute;
+        width: 327px;
+        height: 495px;
+        left:794px;
+        top:321px;
+        background-image: url("./images/man.png");
+        @include peopleN(2s);
+      }
+      .man1{
+        position: absolute;
+        width: 327px;
+        height: 480px;
+        left:800px;
+        top:321px;
+        background-image: url("./images/man1.png");
+        @include peopleN(2s);
+      }
+    }
+    .information{
+      position: absolute;
+      .top-circle{
+        width: 169px;
+        height: 173px;
+        margin-left: 170px;
+        margin-bottom: -20px;
+        background-image: url("./images/top-circle.png");
+      }
+      .top-deng{
+        position: absolute;
+        width: 163px;
+        height: 164px;
+        left:150px;
+        top:150px;
+        background-image: url("./images/top-deng.png");
+      }
+      .content{
+        position: relative;
+        width: 510px;
+        height: 340px;
+        .left-top{
+          position: absolute;
+          width: 84px;
+          height: 43px;
+          left:0;
+          top:0;
+          background-image: url("./images/left-top.png");
+          background-repeat: no-repeat;
+        }
+        .left-bottom{
+          position: absolute;
+          width: 84px;
+          height: 43px;
+          left:0;
+          bottom:0;
+          background-image: url("./images/left-bottom.png");
+          background-repeat: no-repeat;
+        }
+        .right-top{
+          position: absolute;
+          width: 84px;
+          height: 43px;
+          right:0;
+          top:0;
+          background-image: url("./images/right-top.png");
+          background-repeat: no-repeat;
+        }
+        .right-bottom{
+          position: absolute;
+          width: 84px;
+          height: 43px;
+          right:0;
+          bottom:0;
+          background-image: url("./images/right-bottom.png");
+          background-repeat: no-repeat;
+        }
+        .nei-box{
+          position: absolute;
+          margin: 40px;
+          width: 430px;
+          height: 250px;
+          background-image: url("./images/event-rect.png");
+          background-size: 430px 250px;
+          .title2{
+            margin: 40px 20px 10px 20px;
+            font-size: 44px;
+            color: #ffdf48;
+            i{
+              display: inline-block;
+              width: 55px;
+              height: 53px;
+              margin-right: 20px;
+            }
+            span{
+              position: absolute;
+              height: 53px;
+              line-height: 53px;
+            }
+          }
+          .neirong{
+            margin: 0 30px 0 30px;
+            font-size: 36px;
+            height: 36px;
+            line-height: 60px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .box-1{
+       left:300px;
+       top:130px;
+       .nei-box{
+         .title2{
+           margin: 40px 20px 30px 20px;
+           font-size: 44px;
+           color: #ffdf48;
+           i{
+             display: inline-block;
+             width: 55px;
+             height: 53px;
+             margin-right: 20px;
+             background: url("./images/icon-chang.png") no-repeat;
+             background-size: contain;
+           }
+           span{
+             position: absolute;
+             height: 53px;
+             line-height: 53px;
+           }
+         }
+       }
+    }
+    .box-2{
+      left:0;
+      top:770px;
+      .nei-box{
+        .title2{
+          margin: 40px 20px 30px 20px;
+          font-size: 44px;
+          color: #ffdf48;
+          i{
+            display: inline-block;
+            width: 65px;
+            height: 55px;
+            margin-right: 20px;
+            background: url("./images/icon-zuo.png") no-repeat;
+            background-size: contain;
+          }
+          span{
+            position: absolute;
+            height: 55px;
+            line-height: 55px;
+          }
+        }
+      }
+    }
+    .box-3{
+      left:130px;
+      top:1350px;
+      .nei-box{
+        .title2{
+          margin: 40px 20px 30px 20px;
+          font-size: 44px;
+          color: #ffdf48;
+          i{
+            display: inline-block;
+            width: 60px;
+            height: 57px;
+            margin-right: 20px;
+            background: url("./images/icon-work.png") no-repeat;
+            background-size: contain;
+          }
+          span{
+            position: absolute;
+            height: 57px;
+            line-height: 57px;
+          }
+        }
+      }
+    }
+    .box-4{
+      left:2090px;
+      top:130px;
+      .nei-box{
+        .title2{
+          margin: 40px 20px 30px 20px;
+          font-size: 44px;
+          color: #ffdf48;
+          i{
+            display: inline-block;
+            width: 59px;
+            height: 59px;
+            margin-right: 20px;
+            background: url("./images/icon-home.png") no-repeat;
+            background-size: contain;
+          }
+          span{
+            position: absolute;
+            height: 59px;
+            line-height: 59px;
+          }
+        }
+      }
+    }
+    .box-5{
+      left: 2250px;
+      top: 1200px;
+      .content {
+        position: relative;
+        width: 560px;
+        height: 500px;
+        .nei-box{
+          position: absolute;
+          margin: 40px;
+          width: 480px;
+          height: 410px;
+          background-image: url("./images/event-rect.png");
+          background-size: 480px 410px;
+          .title2{
+            margin: 40px 20px 30px 20px;
+            font-size: 44px;
+            color: #ffdf48;
+            i{
+              display: inline-block;
+              width: 59px;
+              height: 52px;
+              margin-right: 20px;
+              background: url("./images/icon-bei.png") no-repeat;
+              background-size: contain;
+            }
+            span{
+              position: absolute;
+              height: 52px;
+              line-height: 52px;
+            }
+          }
+        }
+      }
+    }
+    .line-min{
+      position: absolute;
+      width: 16px;
+      height: 171px;
+      left:1453px;
+      top:1510px;
+      background-image: url("./images/line-min.png");
+    }
+    .box-6{
+      left: 1180px;
+      top: 1640px;
+      .content {
+        position: relative;
+        width: 625px;
+        height: 410px;
+        .nei-box{
+          position: absolute;
+          margin: 40px;
+          width: 540px;
+          height: 320px;
+          background-image: url("./images/event-rect.png");
+          background-size: 540px 320px;
+          .title2{
+            margin: 40px 20px 30px 20px;
+            font-size: 44px;
+            color: #ffdf48;
+            i{
+              display: inline-block;
+              width: 63px;
+              height: 59px;
+              margin-right: 20px;
+              background: url("./images/icon-min.png") no-repeat;
+              background-size: contain;
+            }
+            span{
+              position: absolute;
+              height: 59px;
+              line-height: 59px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .friend-box{
+    position: relative;
+    width: 3024px;
+    height: 1027px;
+    .left-p{
+      position: relative;
+      float: left;
+      width: 1027px;
+      height: 100%;
+    }
+    .center-p{
+      position: relative;
+      float: left;
+      width: 1008px;
+      margin-top: 200px;
+      height: 860px;
+    }
+    .right-p{
+      position: relative;
+      float: right;
+      width: 980px;
+      height: 100%;
+    }
+  }
+}
+

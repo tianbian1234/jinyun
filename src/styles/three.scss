@@ -1,0 +1,30 @@
+.jinyun-three {
+  .three-left {
+    width: 1450px;
+    height: 3080px;
+    float: left;
+  }
+  .three-right {
+    width: 1160px;
+    float: left;
+    margin-left: 140px;
+    .three-top {
+      width: 3056px;
+      height: 2160px;
+      position: relative;
+      .quhuifu {
+        position: absolute;
+        left: 1600px;
+        top: 1020px;
+      }
+    }
+    .three-bottom {
+      width: 3042px;
+      height: 1080px;
+      margin-top: -80px;
+    }
+  }
+}
+#box_a{
+  margin-top: 60px;
+}

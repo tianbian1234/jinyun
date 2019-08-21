@@ -1,0 +1,36 @@
+.historytoday {
+  background: url('./images/border.png') no-repeat center;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: -35px;
+
+  .itemBox {
+    width: 1364px;
+    height: 800px;
+    margin: 90px auto 0;
+    overflow: hidden;
+
+    .list {
+      background: url('./images/bg_list.png') no-repeat center;
+      background-size: 100%;
+      width: 100%;
+      height: 165px;
+      margin-bottom: 38px;
+      font-size: 36px;
+      color: #ffffff;
+
+      .date {
+        margin-left: 130px;
+      }
+
+      .title {
+        margin-top: 42px;
+        margin-left: 34px;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+}

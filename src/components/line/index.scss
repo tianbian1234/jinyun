@@ -1,0 +1,62 @@
+.line-box{
+
+  .lenged{
+    float: right;
+    width: 800px;
+    margin-right: 100px;
+    .icon-box{
+      float: left;
+      font-size: 36px;
+      color: #b4dbf6;
+      width: 200px;
+      .icon-0{
+        display: inline-block;
+        width: 88px;
+        height: 86px;
+        vertical-align: middle;
+        background-image: url("./images/bei.png");
+      }
+      .icon-1{
+        display: inline-block;
+        width: 88px;
+        height: 86px;
+        vertical-align: middle;
+        background-image: url("./images/jin.png");
+      }
+      .icon-2{
+        display: inline-block;
+        width: 88px;
+        height: 86px;
+        vertical-align: middle;
+        background-image: url("./images/dian.png");
+      }
+      .icon-3{
+        display: inline-block;
+        width: 88px;
+        height: 86px;
+        vertical-align: middle;
+        background-image: url("./images/tian.png");
+      }
+      .icon-4{
+        display: inline-block;
+        width: 88px;
+        height: 86px;
+        vertical-align: middle;
+        background-image: url("./images/ri.png");
+      }
+      .icon-5{
+        display: inline-block;
+        width: 88px;
+        height: 86px;
+        vertical-align: middle;
+        background-image: url("./images/guang.png");
+      }
+      span{
+        display: inline-block;
+        height: 86px;
+        line-height: 86px;
+        vertical-align: middle;
+      }
+    }
+  }
+}

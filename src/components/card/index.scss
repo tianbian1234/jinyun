@@ -1,0 +1,112 @@
+.datahunter-card {
+  color: #fff;
+
+  .title {
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .title2 {
+    height: 65px;
+    line-height: 65px;
+
+    .back {
+      display: inline-block;
+      width: 197px;
+      height: 65px;
+      line-height: 65px;
+      font-size: 42px;
+      text-align: center;
+      background-image: url("./images/t_back.png");
+    }
+
+    .back1 {
+      float: right;
+      margin-right: 500px;
+    }
+
+    .back2 {
+      float: right;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      position: relative;
+      height: 68px;
+      margin: 22px auto;
+
+      .scale {
+        position: relative;
+        display: inline-block;
+        height: 68px;
+        width: 561px;
+        background-image: url('./images/pg_bg1.png');
+        background-size: 561px 68px;
+
+        div {
+          float: right;
+          width: 0;
+          height: 39px;
+          margin-top: 15px;
+          margin-right: 20px;
+          background-image: url('./images/pg_bg2.png');
+          background-repeat: no-repeat;
+          transition: width 2s;
+        }
+      }
+
+      .data-name {
+        position: absolute;
+        display: inline-block;
+        height: 68px;
+        line-height: 68px;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 50px;
+        max-width: 400px;
+        overflow: hidden;
+      }
+
+      .data-line {
+        position: absolute;
+        right: 264px;
+        margin-top: -51px;
+
+        i {
+          display: inline-block;
+          height: 3px;
+          width: 275px;
+          line-height: 68px;
+          background-image: -webkit-linear-gradient(-90deg, #86bded, #0d376b);
+          background-image: linear-gradient(-90deg, #86bded, #0d376b);
+        }
+
+        span {
+          position: absolute;
+          display: inline-block;
+          margin-left: -16px;
+          height: 30px;
+          width: 30px;
+          line-height: 68px;
+          background: url('./images/circle.png') no-repeat center;
+          background-size: 100%;
+        }
+      }
+
+      .data-rate {
+        position: absolute;
+        display: inline-block;
+        height: 68px;
+        width: 205px;
+        line-height: 68px;
+        font-size: 40px;
+        text-align: center;
+        right: 16px;
+      }
+    }
+  }
+}

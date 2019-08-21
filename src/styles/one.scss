@@ -1,0 +1,43 @@
+.jinyun-one {
+  .left {
+    height: 100%;
+    width: 1427px;
+    float: left;
+  }
+  .right {
+    width: 3056px;
+    float: left;
+    height: 100%;
+    margin-left: 100px;
+    .right-up {
+      position: relative;
+      height: 2107px;
+      width: 100%;
+      .right-up-map{
+        float: left;
+        width: 2143px;
+        height: 100%;
+        .map{
+          width: 100%;
+          height: 1709px;
+        }
+        .pop{
+          position: absolute;
+          bottom:20px;
+          width: 68%;
+          height: 489px;
+        }
+      }
+      .right-up-right{
+        float: right;
+        width: 913px;
+        height: 100%;
+      }
+    }
+    .right-down{
+      height: 975px;
+      width:100%;
+      overflow: hidden;
+    }
+  }
+}

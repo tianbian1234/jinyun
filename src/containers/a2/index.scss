@@ -1,0 +1,32 @@
+.kitchen-- {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4800px;
+  height: 3240px;
+  background: url(./images/kitchen.png);
+}
+.iframe {
+  position: absolute;
+  left: 0;
+  top: 130px;
+  width: 4800px;
+  height: 2000px;
+  border: none;
+}
+.a2-right-container{
+  width: 100%;
+  height: 100%;
+  .four-bottom-title{
+    color: #ffffff;
+    .four-bottom-title-t{
+      margin-top: 30px;
+      text-align: center;
+      font-size: 40px;
+    }
+    .four-bottom-title-b{
+      text-align: center;
+      font-size: 34px;
+    }
+  }
+}

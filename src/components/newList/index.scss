@@ -1,0 +1,30 @@
+.area-list{
+  width: 100%;
+  height: 100%;
+  .table-box{
+    height: 65%;
+    width: 96%;
+    margin-top: 50px;
+    margin-left: 80px;
+    .list-content{
+      position: absolute;
+      height: 40%;
+      width: 96%;
+      margin-top: 10px;
+      border-top: 2px solid #00d8ff;
+      border-left: 2px solid #00d8ff;
+      tr{
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        td{
+          min-width: 10%;
+          font-size: 50px;
+          color: #ffffff;
+          border-right: 2px solid #00d8ff;
+          border-bottom: 2px solid #00d8ff;
+        }
+      }
+    }
+  }
+}

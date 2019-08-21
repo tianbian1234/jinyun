@@ -1,0 +1,73 @@
+.jinyun-a3 {
+  .up{
+    width: 100%;
+    height: 2054px;
+    .up-left{
+      float: left;
+      width: 1521px;
+      height: 100%;
+      .up-left-top{
+        height: 1027px;
+        width: 100%;
+      }
+      .up-left-down{
+        height: 1027px;
+        width: 100%;
+        .listBox{
+          margin-top:-40px;
+          li:first-child{
+            margin-top: 80px;
+          }
+          li{
+            height: 70px;
+            margin-bottom: 64px;
+          }
+        }
+      }
+    }
+    .up-center{
+      float: left;
+      width: 1500px;
+      height: 100%;
+      position: relative;
+    }
+    .up-right{
+      float: left;
+      width: 1480px;
+      height: 100%;
+    }
+  }
+  .down{
+    width: 100%;
+    height: 1027px;
+    .down-left{
+      float: left;
+      width: 3054px;
+      height: 100%;
+      position: relative;
+    }
+    .down-right{
+      float: right;
+      width: 1480px;
+      height: 100%;
+    }
+  }
+  .two-li-style {
+    &:not(:first-child) {
+      margin-top: 15px;
+    }
+  }
+}
+.up-center-cards {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  z-index: 100;
+}
+.bdmap {
+  width: 760px;
+  height: 650px;
+  position: absolute;
+  left: 2100px;
+  top: 260px;
+}

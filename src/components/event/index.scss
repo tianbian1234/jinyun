@@ -1,0 +1,56 @@
+.event-box{
+  width: 100%;
+  height: 100%;
+  .event-name{
+    width: 100%;
+    height: 70px;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 60px;
+  }
+  .inter{
+    width: 100%;
+    height: 160px;
+    .back{
+      font-size: 42px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+      line-height: 95px;
+      width: 197px;
+      height: 95px;
+      background-image: url("./images/jian.png");
+    }
+  }
+  .content{
+    height: 720px;
+    padding: 50px 40px;
+    background: #1c4478;
+    opacity:0.6;
+  }
+  .wenzi{
+    position: absolute;
+    top:200px;
+    height: 760px;
+    line-height: 70px;
+    width: 1360px;
+    margin: 0;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    font-size: 36px;
+    color: #ffffff;
+    z-index: 100;
+    //overflow : hidden;
+    //text-overflow: ellipsis;
+    //display: -webkit-box;
+    //-webkit-line-clamp: 10;
+    //-webkit-box-orient: vertical;
+  }
+  .img{
+    margin-top: 40px;
+    width: 1360px;
+    height: 720px;
+  }
+}

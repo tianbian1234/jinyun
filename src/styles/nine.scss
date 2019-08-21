@@ -1,0 +1,129 @@
+.jinyun-nine {
+  .jinyun-nine-top {
+    width: 100%;
+    height: 100%;
+    .nine-panel {
+      width: 2250px;
+      float: left;
+      .nine-panel-top {
+        width: 1002px;
+        margin: 20px auto;
+        height: 413px;
+        .nine-panel-item {
+          display: inline-block;
+          float: left;
+          height: 352px;
+          vertical-align: middle;
+        }
+        .nine-panel-number {
+          margin-left: 30px;
+          font-size: 60px;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          a {
+            font-size: 160px;
+            color: #ffce26;
+          }
+        }
+      }
+
+      .nine-panel-bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+        .nine-panel-content {
+          width: 100%;
+          height: 100%;
+          font-size: 80px;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          span {
+            &:nth-child(2n) {
+              font-size: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .jinyun-nine-line {
+    float: left;
+    height: 100%;
+    width: 2px;
+    margin: 0 14px;
+    background-image: url('./images/line_bg.png');
+    background-repeat: no-repeat;
+  }
+  .jinyun-nine-li {
+    width: 1447px;
+    float: left;
+    .datahunter-card {
+      li {
+        margin: 60px 0;
+      }
+    }
+    &:nth-child(2n) {
+      margin-left: 155px;
+      margin-right: 155px;
+    }
+  }
+
+  .jinyun-nine-bottom {
+    height: 978px;
+    margin-top: 64px;
+    .jinyun-nine-item {
+      height: 100%;
+      float: left;
+      .jinyun-nine-edition {
+         position: relative;
+         margin-top: 75px;
+         .jinyun-nine-edition-item {
+            position: absolute;
+           &:nth-child(2n) {
+             right: 0;
+             top: 352px;
+           }
+           .jinyun-nine-edition-cont {
+             position: absolute;
+             top:0;
+             width: 352px;
+             height: 352px;
+             color: #fff;
+             font-size: 44px;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             text-align: center;
+             span {
+               &:nth-child(2n) {
+                 font-size: 84px;
+               }
+             }
+           }
+           .jinyun-nine-edition-cont-1 {
+             position: absolute;
+             top:0;
+             width: 318px;
+             height: 319px;
+             color: #fff;
+             font-size: 44px;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             text-align: center;
+             span {
+               &:nth-child(2n) {
+                 font-size: 84px;
+               }
+             }
+           }
+         }
+      }
+    }
+  }
+}

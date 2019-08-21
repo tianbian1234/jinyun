@@ -1,0 +1,395 @@
+.bmap-- {
+  .info-box-container {
+    img {
+      display: none;
+    }
+    .info-box {
+      font-size: 40px;
+      width: 546px;
+      color: #000;
+      border: 3px solid #ff0000;
+      border-radius: 8px;
+      padding: 20px;
+      background: #fff;
+      position: absolute;
+      left: 82px;
+      top: 40px;
+      h2 {
+        font-size: 44px;
+        margin: 0 0 25px 0;
+      }
+      p {
+        margin: 0 0 20px 0;
+        label {
+          float: left;
+        }
+        span {
+          display: block;
+          overflow: hidden;
+        }
+        .phone-box{
+          line-height: 60px;
+        }
+      }
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .info-box-container.person .info-box {
+    border-color: #fff000;
+  }
+  .info-box-container.camera .info-box {
+    border-color: #c717c5;
+  }
+  .info-box-container.ufo .info-box {
+    border-color: #00ffa8;
+  }
+  .info-box-container.car .info-box {
+    border-color: #ff6000;
+  }
+
+  .map-scatter {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    .anchorBL {
+      display: none!important;
+    }
+  }
+  .map {
+    border: 2px solid #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 2314px;
+    .anchorBL {
+      display: none!important;
+    }
+    div[style*='height: 140px;'] {
+      box-sizing: border-box!important;
+      background-repeat: no-repeat!important;
+      text-align: left!important;
+      text-indent: 150px;
+      background-position-y: 0!important;
+    }
+  }
+  .legend {
+    margin: 0;
+    padding: 44px;
+    background: url(./images/icon/legend.png);
+    width: 343px;
+    height: 732px;
+    position: absolute;
+    right: 120px;
+    bottom: 750px;
+    box-sizing: border-box;
+    li {
+      height: 100px;
+      a {
+        text-indent: -99999px;
+        display: block;
+        height: 60px;
+        position: relative;
+        width: 161px;
+        left: 78px;
+        top: 38px;
+        background: url(./images/icon/legend-active.png) no-repeat -9999px 9999px;
+      }
+    }
+    li.legend-photo {
+      height: 99px;
+      a:hover, a[role=active] {
+        background-position: -122px -82px;
+      }
+    }
+    li.legend-4g {
+      height: 105px;
+      a:hover, a[role=active] {
+        background-position: -122px -181px;
+      }
+    }
+    li.legend-camera {
+      height: 99px;
+      a:hover, a[role=active] {
+        background-position: -122px -286px;
+      }
+    }
+    li.legend-person {
+      height: 102px;
+      a:hover, a[role=active] {
+        background-position: -122px -385px;
+      }
+    }
+    li.legend-car {
+      height: 102px;
+      a:hover, a[role=active] {
+        background-position: -122px -487px;
+      }
+    }
+    li.legend-ufo {
+      a:hover, a[role=active] {
+        background-position: -122px -589px;
+      }
+    }
+  }
+}
+
+.bmap2-- {
+  .info-box-container {
+    img {
+      display: none;
+    }
+    .info-box {
+      font-size: 40px;
+      width: 546px;
+      color: #000;
+      border: 3px solid #ff0000;
+      border-radius: 8px;
+      padding: 20px;
+      background: #fff;
+      position: absolute;
+      left: 82px;
+      top: 40px;
+      h2 {
+        font-size: 44px;
+        margin: 0 0 25px 0;
+      }
+      p {
+        margin: 0 0 20px 0;
+        label {
+          float: left;
+        }
+        span {
+          display: block;
+          overflow: hidden;
+        }
+      }
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .info-box-container.person .info-box {
+    border-color: #fff000;
+  }
+  .info-box-container.camera .info-box {
+    border-color: #c717c5;
+  }
+  .info-box-container.ufo .info-box {
+    border-color: #00ffa8;
+  }
+  .info-box-container.car .info-box {
+    border-color: #ff6000;
+  }
+
+  .map-scatter {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    .anchorBL {
+      display: none!important;
+    }
+  }
+  .map {
+    border: 2px solid #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 2314px;
+    .anchorBL {
+      display: none!important;
+    }
+    div[style*='height: 140px;'] {
+      box-sizing: border-box!important;
+      background-repeat: no-repeat!important;
+      text-align: left!important;
+      text-indent: 100px;
+      background-position-y: 27px!important;
+    }
+  }
+  .legend {
+    margin: 0;
+    padding: 44px;
+    background: url(./images/icon/legend.png);
+    width: 343px;
+    height: 732px;
+    position: absolute;
+    right: 120px;
+    bottom: 750px;
+    box-sizing: border-box;
+    li {
+      height: 100px;
+      a {
+        text-indent: -99999px;
+        display: block;
+        height: 60px;
+        position: relative;
+        width: 161px;
+        left: 78px;
+        top: 38px;
+        background: url(./images/icon/legend-active.png) no-repeat -9999px 9999px;
+      }
+    }
+    li.legend-photo {
+      height: 99px;
+      a:hover, a[role=active] {
+        background-position: -122px -82px;
+      }
+    }
+    li.legend-4g {
+      height: 105px;
+      a:hover, a[role=active] {
+        background-position: -122px -181px;
+      }
+    }
+    li.legend-camera {
+      height: 99px;
+      a:hover, a[role=active] {
+        background-position: -122px -286px;
+      }
+    }
+    li.legend-person {
+      height: 102px;
+      a:hover, a[role=active] {
+        background-position: -122px -385px;
+      }
+    }
+    li.legend-car {
+      height: 102px;
+      a:hover, a[role=active] {
+        background-position: -122px -487px;
+      }
+    }
+    li.legend-ufo {
+      a:hover, a[role=active] {
+        background-position: -122px -589px;
+      }
+    }
+  }
+}
+
+.cards-- {
+  padding: 80px 206px;
+  position: relative;
+  .play-btn {
+    display: block;
+    width: 180px;
+    height: 80px;
+    background: url(./images/play.png);
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 80px;
+    text-indent: 30px;
+    &:before {
+      content: '';
+      display: block;
+      background: url(./images/play-btn.png) no-repeat 85% center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+    &[role=stop]:before {
+      background-image: url(./images/stop-btn.png);
+    }
+  }
+  .prev, .next {
+    display: block;
+    width: 64px;
+    height: 114px;
+    background: url(./images/arrow.png);
+    cursor: pointer;
+    position: absolute;
+    top: 250px;
+  }
+  .prev {
+    left: 100px;
+  }
+  .next {
+    right: 100px;
+    transform: rotate(180deg);
+  }
+}
+
+.card-- {
+  border: 1px solid #00d8ff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  a {
+    overflow: hidden;
+    display: block;
+    height: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  h2 {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -134px;
+    width: 100%;
+    text-align: center;
+  }
+}
+.card--:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 103, 185, 0.4);
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.card--[role=image]:before {
+  background: transparent;
+  cursor: pointer;
+}
+.card--[role=video]:after {
+  content: '';
+  display: block;
+  width: 117px;
+  height: 168px;
+  position: absolute;
+  left: 50%;
+  margin-left: -59px;
+  top: 50%;
+  margin-top: -84px;
+  background: url(./images/video.png);
+  cursor: pointer;
+}
+.card--[role=audio] {
+  background: none;
+  &:after {
+    content: '';
+    display: block;
+    width: 116px;
+    height: 118px;
+    position: absolute;
+    left: 50%;
+    margin-left: -58px;
+    top: 50%;
+    margin-top: -59px;
+    background: url(./images/audio.png);
+    cursor: pointer;
+  }
+}
+
+.pan-to {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  background: #aaa url(./images/home.png) no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+  cursor: pointer;
+}

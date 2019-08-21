@@ -1,0 +1,47 @@
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content; }
+}
+// 文字滚动的动画
+@include keyframes(todayScroll) {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-780px); }
+ }
+@include keyframes(circle) {
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(-360deg); }
+}
+@include keyframes(circleF) {
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(360deg); }
+}
+@include keyframes(people) {
+  0%{ transform:translateY(0); }
+  50%{transform:translateY(-50px);}
+  100%{ transform:translateY(0); }
+}
+ @mixin scrollTitle($animationTime) {
+   -webkit-animation:todayScroll $animationTime linear infinite;
+   animation:todayScroll $animationTime linear infinite;
+ }
+@mixin circleBox($animationTime) {
+  -webkit-animation:circle $animationTime linear infinite;
+  animation:circle $animationTime linear infinite;
+}
+@mixin circleBoxF($animationTime) {
+  -webkit-animation:circleF $animationTime linear infinite;
+  animation:circleF $animationTime linear infinite;
+}
+@mixin peopleN($animationTime) {
+  -webkit-animation:people $animationTime linear infinite;
+  animation:people $animationTime linear infinite;
+}

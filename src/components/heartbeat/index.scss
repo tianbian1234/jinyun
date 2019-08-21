@@ -1,0 +1,40 @@
+.beating {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  background: url(./images/line.png) repeat-x -214px bottom;
+  .beating-box {
+    float: left;
+    text-align: center;
+    .beating-card {
+      text-align: left;
+      background: rgba(30, 103, 185, 0.5);
+      border: 2px solid rgba(0, 216, 255, 0.5);
+      height: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      position: relative;
+      p {
+        font-size: 34px;
+        color: #fff;
+        margin: 0;
+        line-height: 60px;
+      }
+      small {
+        font-size: 32px;
+        color: #9eafc3;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+      }
+    }
+  }
+}
+
+.multi-overflow-3 {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

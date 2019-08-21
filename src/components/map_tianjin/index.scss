@@ -1,0 +1,106 @@
+.tianjin-map {
+  position: relative;
+  width: 3040px;
+  height: 1800px;
+  margin-top: 120px;
+  .show-map {
+    position: absolute;
+    width: 1440px;
+    height:1836px;
+    background-image: url('./images/tianjin_pg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 80px;
+  }
+  .real-map {
+    height: 1800px;
+    position: absolute;
+    left: 40px;
+  }
+  .cards-yellow {
+    width: 1130px;
+    height: 600px;
+    position: absolute;
+    left: 1650px;
+    background-image: url('./images/y_tianjin.png');
+    background-size: 100%;
+    .cards-box {
+      position: relative;
+      padding: 60px;
+      color: #fff;
+      font-size: 50px;
+      width: initial;
+      height: 480px;
+      .cards-box-content{
+        // height: 120px;
+        // margin-left: 60px;
+        .cards-box-content-item {
+          font-size: 50px;
+          line-height: 66px;
+          display: inline-block;
+          overflow: hidden;
+          width: 1000px;
+          margin-top: 40px;
+        }
+      }
+      .cards-box-address {
+        position: absolute;
+        font-size: 40px;
+        color: #fff;
+        bottom: 60px;
+        width: inherit;
+        right: 60px;
+        left: 60px;
+        p {
+          line-height: 1;
+        }
+      }
+    }
+  }
+  .cards {
+    width: 1130px;
+    height: 600px;
+    position: absolute;
+    left: 1650px;
+    background-size: 100%;
+    .cards-box {
+      position: relative;
+      padding: 60px;
+      color: #fff;
+      font-size: 44px;
+      width: initial;
+      height: 480px;
+      .cards-box-content{
+        // height: 120px;
+        // margin-left: 60px;
+        .cards-box-content-item {
+          color: #ffba00;
+          font-size: 50px;
+          line-height: 66px;
+          display: inline-block;
+          overflow: hidden;
+          width: 1000px;
+          margin-top: 40px;
+        }
+      }
+      .cards-box-address {
+        position: absolute;
+        font-size: 40px;
+        color: #fff;
+        bottom: 60px;
+        width: inherit;
+        right: 60px;
+        left: 60px;
+        p {
+          line-height: 1;
+        }
+      }
+    }
+  }
+  .cards-1{
+    background-image: url('./images/event_pg.png');
+  }
+  .cards-2{
+    background-image: url('./images/y_tianjin.png');
+  }
+}

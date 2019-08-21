@@ -1,0 +1,22 @@
+.tianjin-map-new {
+  position: relative;
+  width: 1521px;
+  height: 1800px;
+  margin-top: 120px;
+  .show-map {
+    position: absolute;
+    width: 1440px;
+    height:1836px;
+    background-image: url('./images/tianjin_pg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 80px;
+  }
+  .real-map {
+
+    width: 1700px;
+    height: 1800px;
+    position: absolute;
+    left: -50px;
+  }
+}

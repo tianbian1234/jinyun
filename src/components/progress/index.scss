@@ -1,0 +1,130 @@
+.jinyun-progress {
+  .jinyun-progress-list {
+    &:not(:first-child) {
+      margin-top: 46px;
+    }
+  }
+}
+
+.jinyun-progress-item {
+  width: 100%;
+  height: 70px;
+  max-width: 1348px;
+  .progress-line {
+    float: left;
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url('./images/pg_bg1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 12px 20px;
+    .progress-line-w {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .progress-line-n {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        max-width: 100%;
+        background-image: url('./images/pg_bg2.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  .progress-content {
+    float: left;
+    position: relative;
+    width: 60%;
+    box-sizing: border-box;
+    line-height: 70px;
+    color: #fff;
+    font-size: 40px;
+    .progress-content-w {
+      position: relative;
+      float: left;
+      display: flex;
+      width: 80%;
+      height: 100%;
+      .progress-content-title {
+        position: relative;
+        padding: 0 40px;
+        max-width: 360px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+      }
+      .progress-content-line {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        .line-item {
+          display: inline-block;
+          height: 4px;
+          width: 100%;
+          line-height: 68px;
+          background-image: -webkit-linear-gradient(-90deg, #86bded, #0d376b);
+          background-image: linear-gradient(-90deg, #86bded, #0d376b);
+          &:after {
+            position: absolute;
+            content: "";
+            width: 24px;
+            height: 24px;
+            right: -12px;
+            top: 26px;
+            background-image: url('./images/circle.png');
+            background-size: 100%;
+          }
+        }
+      }
+    }
+
+    .progress-content-n {
+      width: 20%;
+      float: left;
+      text-align: center;
+    }
+  }
+}
+
+.jinyun-progress-headers {
+  width: 100%;
+  height: 70px;
+  max-width: 1348px;
+  .jinyun-progress-headers-l {
+    width: 40%;
+    height: inherit;
+    float: left;
+    visibility:hidden;
+  }
+  .jinyun-progress-headers-r {
+    width: 60%;
+    height: inherit;
+    float: left;
+    .headers-r-l {
+      width: 70%;
+      float: left;
+      box-sizing: border-box;
+      padding-left: 40px;
+    }
+    .headers-r-r {
+      width: 30%;
+      float: left;
+      text-align: right;
+    }
+  }
+
+  .progress-btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 42px;
+    line-height: 1;
+    padding: 16px 20px;
+    background-image: url('./images/t_back.png');
+    background-size: 100% 100%;
+  }
+}

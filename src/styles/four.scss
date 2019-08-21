@@ -1,0 +1,148 @@
+.jinyun-four {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .four-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .four-container {
+    position: relative;
+    width: 100%;
+    height: 2126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .four-container-mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      .mask-top {
+        position: absolute;
+        right: 674px;
+        left: 674px;
+        height: 433px;
+        .mask-box {
+          margin: auto;
+          width: 1858px;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      .mask-panel {
+        position: absolute;
+        width: 596px;
+        height: 100%;
+        padding-left: 20px;
+        padding-top: 318px;
+        .mask-item {
+          &:not(:first-child) {
+            margin-top: 80px;
+          }
+        }
+      }
+      .mask-left {
+        left: 78px;
+      }
+      .mask-right {
+        right: 78px;
+      }
+    }
+  }
+  .four-map{
+    position: absolute;
+    left:1860px;
+    top:1220px;
+  }
+  .four-bottom {
+    position: relative;;
+    width: 100%;
+    height: 969px;
+
+    .four-bottom-container {
+      position: absolute;
+      height: 549px;
+      width: 100%;
+      bottom: 0;
+      display: flex;
+      justify-content: space-around;
+      .center-content{
+        position: relative;
+        width: 100%;
+        height: 305px;
+        overflow: hidden;
+        .four-bottom-content {
+          position: absolute;
+          width: 100%;
+          max-height: 305px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+      }
+      .four-logo-content{
+        position: relative;
+        width: 100%;
+        height: 405px;
+        overflow: hidden;
+        .four-bottom-content {
+          position: absolute;
+          width: 100%;
+          max-height: 305px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+      }
+      .city-logo{
+        position: relative;
+        width: 100%;
+        height: 305px;
+        overflow: hidden;
+        .four-bottom-content {
+          position: absolute;
+          width: 100%;
+          max-height: 305px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+      }
+      .four-bottom-title {
+        font-size: 50px;
+        color: #fff;
+        width: 733px;
+        margin: 40px auto 0;
+        height: 170px;
+        .four-bottom-title-t {
+          text-align: center;
+        }
+        .four-bottom-title-b {
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+      .bottom-title-center{
+        width:1500px;
+        height: 80px;
+        margin: 20px auto 0;
+        .four-bottom-title-t {
+          display: inline-block;
+          margin-right: 100px;
+          margin-left:400px;
+        }
+        .four-bottom-title-b {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

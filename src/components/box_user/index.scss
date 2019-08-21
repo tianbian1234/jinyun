@@ -1,0 +1,83 @@
+.information{
+  position: absolute;
+  .top-circle{
+    width: 169px;
+    height: 173px;
+    margin-left: 170px;
+    margin-bottom: -20px;
+    background-image: url("./images/top-circle.png");
+  }
+  .top-deng{
+    position: absolute;
+    width: 163px;
+    height: 164px;
+    left:150px;
+    top:150px;
+    background-image: url("./images/top-deng.png");
+  }
+  .content{
+    position: relative;
+    width: 510px;
+    height: 340px;
+    .left-top{
+      position: absolute;
+      width: 84px;
+      height: 43px;
+      left:0;
+      top:0;
+      background-image: url("./images/left-top.png");
+      background-repeat: no-repeat;
+    }
+    .left-bottom{
+      position: absolute;
+      width: 84px;
+      height: 43px;
+      left:0;
+      bottom:0;
+      background-image: url("./images/left-bottom.png");
+      background-repeat: no-repeat;
+    }
+    .right-top{
+      position: absolute;
+      width: 84px;
+      height: 43px;
+      right:0;
+      top:0;
+      background-image: url("./images/right-top.png");
+      background-repeat: no-repeat;
+    }
+    .right-bottom{
+      position: absolute;
+      width: 84px;
+      height: 43px;
+      right:0;
+      bottom:0;
+      background-image: url("./images/right-bottom.png");
+      background-repeat: no-repeat;
+    }
+    .nei-box{
+      position: absolute;
+      margin: 40px;
+      width: 430px;
+      height: 250px;
+      background-image: url("./images/event-rect.png");
+      background-size: 430px 250px;
+      .title2{
+        margin: 40px 20px 30px 20px;
+        font-size: 44px;
+        color: #ffdf48;
+        i{
+          display: inline-block;
+          width: 55px;
+          height: 53px;
+          margin-right: 20px;
+        }
+        span{
+          position: absolute;
+          height: 53px;
+          line-height: 53px;
+        }
+      }
+    }
+  }
+}

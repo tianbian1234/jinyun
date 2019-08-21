@@ -1,0 +1,99 @@
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content; }
+}
+@include keyframes(circle) {
+  0% { transform:rotate(0deg); }
+  100% { transform:rotate(-360deg); }
+}
+@mixin turn($time) {
+  -webkit-animation:circle $time linear infinite;
+  animation:circle $time linear infinite;
+}
+
+@include keyframes(banCircle) {
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(360deg); }
+}
+@include keyframes(fanCircle) {
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(-360deg); }
+}
+@mixin scrollBan($animationTime) {
+  -webkit-animation:banCircle $animationTime linear infinite;
+  animation:banCircle $animationTime linear infinite;
+}
+@mixin scrollFan($animationTime) {
+  -webkit-animation:fanCircle $animationTime linear infinite;
+  animation:fanCircle $animationTime linear infinite;
+}
+
+.datahunter-box-hoop {
+  width: 352px;
+  height: 352px;
+  background-image: url('./images/loop_pg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  @include scrollBan(2s);
+}
+.datahunter-box-hoop-1{
+  @include scrollFan(2s);
+}
+.datahunter-box-square {
+
+  width: 100%;
+  height: inherit;
+  border: 3px solid #068abb;
+  box-sizing: content-box;
+  position: relative;
+  text-align: center;
+  .datahunter-box-square-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1e2a64;
+    opacity: .4
+  }
+  .datahunter-box-square-container {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+  }
+}
+.datahunter-box {
+  .datahunter-box-circle {
+    position: relative;
+    width: 352px;
+    height: 352px;
+    cursor: pointer;
+    .box-circle-turn {
+      @include turn(2s);
+    }
+    .datahunter-box-circle-bg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url('./images/circle_pg.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    .datahunter-box-span {
+      display: inline-block;
+      width: inherit;
+      font-size: 64px;
+      color: #fff;
+      line-height: 352px;
+      text-align: center;
+    }
+  }
+}

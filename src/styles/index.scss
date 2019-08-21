@@ -1,0 +1,74 @@
+/* Base Application Styles */
+html, body {
+  font-family:roboto,思源黑体 CN;
+  color: #161414;
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+#app {
+  @import './home.scss';
+  width: 4800px;
+  height: 3240px;
+  box-sizing:border-box;
+  .jinyun-containers {
+    width: 100%;
+    height: 100%;
+    .container-bg {
+      width: 100%;
+      height: inherit;
+      padding: 80px;
+      box-sizing: border-box;
+      background-image: url('./images/bg_1.jpg');
+    }
+    @import './one.scss';
+    @import './two.scss';
+    @import './three.scss';
+    @import './four.scss';
+    @import './six.scss';
+    @import './nine.scss';
+    @import './zone.scss';
+    @import './ztwo.scss';
+    @import './zthree.scss';
+    @import './a3.scss';
+    @import './seven.scss';
+    @import './ten.scss';
+  }
+  .icon-pencil {
+    &:before {
+      content: '';
+      width: 80px;
+      height: 80px;
+      display: inline-block;
+      background-image: url('./images/pencil.png');
+      background-size: 100% 100%;
+      vertical-align: middle;
+    }
+  }
+  .icon-wechat {
+    position: relative;
+    &:before {
+      content: '';
+      width: 80px;
+      height: 80px;
+      display: inline-block;
+      background-image: url('./images/wechat.png');
+      background-size: 100% 100%;
+      vertical-align: middle;
+      margin-right: 30px;
+    }
+  }
+  .icon-weibo {
+    position: relative;
+    &:before {
+      content: '';
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      background-image: url('./images/weibo.png');
+      background-size: 100% 100%;
+      vertical-align: middle;
+      margin-right: 30px;
+    }
+  }
+}

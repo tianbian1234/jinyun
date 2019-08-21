@@ -1,0 +1,22 @@
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content; }
+}
+// 文字滚动的动画
+@include keyframes(popCircle) {
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(360deg); }
+}
+ @mixin scrollYu($animationTime) {
+   -webkit-animation:popCircle $animationTime linear infinite;
+   animation:popCircle $animationTime linear infinite;
+ }

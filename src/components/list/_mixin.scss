@@ -1,0 +1,40 @@
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content; }
+}
+/*--文字跑马灯--**/
+@include keyframes(marquee) {
+  0%   { text-indent: 0em; }
+  25%  { text-indent: -9em; }
+  50%  { text-indent: -18em; }
+  75%  { text-indent: -27em; }
+  100% { text-indent: -36em; }
+ }
+ @mixin marquee($animationTime) {
+   -webkit-animation: marquee $animationTime linear infinite;
+   animation: marquee $animationTime linear infinite;
+ }
+/*--文字跑马灯--**/
+
+@mixin transition($property, $duration, $transition, $delay) {
+  -webkit-transition: $property $duration $transition $delay;
+  transition: $property $duration $transition $delay;
+}
+@mixin light($width, $height, $left, $top) {
+  position: absolute;
+  background-size: 100%;
+  // background: url(#{$bgUrl}) no-repeat center;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: $top;
+}

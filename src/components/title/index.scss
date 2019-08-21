@@ -1,0 +1,34 @@
+.datahunter-title {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 50px;
+  height: 82px;
+  line-height: 82px;
+  font-size:50px;
+  font-weight:bold;
+  color: #ffffff;
+  background: url(./images/left.png) no-repeat 0 center;
+  .title-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .title-container:before,
+  .title-container:after {
+    content: '';
+    display: block;
+    background: url(./images/right-top.png) no-repeat right top;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .title-container:after {
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,29 @@
+.mapBox2{
+  background-image: url("./images/mapback.png");
+  .title{
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .content-box{
+    position: absolute;
+    width: 937px;
+    height: 501px;
+    right:80px;
+    bottom:300px;
+    background-image: url("./images/mapInformation.png");
+    .information{
+      margin: 100px;
+      font-size: 50px;
+      font-weight: bold;
+      color: #ffde00;
+    }
+    .date{
+      margin-top: 350px;
+      text-align: right;
+      padding-right: 80px;
+      font-size: 44px;
+      color: #cbe0f1;
+    }
+  }
+}

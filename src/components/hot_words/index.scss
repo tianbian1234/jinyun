@@ -1,0 +1,31 @@
+.word-box{
+  .title {
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .hot-word{
+    font-weight: normal;
+    word-break: keep-all;
+    white-space: nowrap;
+    display: block;
+  }
+  #hotWord {
+    position:relative;
+    width:900px;
+    height:760px;
+    margin: 0 auto;
+    a{
+      position:absolute;
+      top:0px;
+      left:0px;
+      color:#fff;
+      font-weight:bold;
+      text-decoration:none;
+      padding: 3px 6px;
+    }
+  }
+}
+
+
+
